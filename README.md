@@ -15,13 +15,13 @@ TriangleDraw.py file shows results by the requarements in task, such as:
 Steps to run and check results: 
 1. TriangleDraw.py containt several scenarion inside, prepared to  be run with pytest library, 
       First 3 cases tes Positive cases to be triger different types of triangle.
-            ('"' + triangle_type(3,4,5) + '"' , 'Triangle is Scalane'),
-            ('"' + triangle_type(3,5,5) + '"' , 'Triangle is Isosceles.'),
-            ('"' + triangle_type(3,3,3) + '"' , 'Triangle is Equilateral.'),
+            •('"' + triangle_type(3,4,5) + '"' , 'Triangle is Scalane'),
+            •('"' + triangle_type(3,5,5) + '"' , 'Triangle is Isosceles.'),
+            •('"' + triangle_type(3,3,3) + '"' , 'Triangle is Equilateral.'),
       Next list of cases checks none - numeric values and negative. Last test must check boundary - level tests of field, but MAX is not presented in requarements so I put random big value.
-            ('"' + triangle_type(5464564,456445645,456456456) + '"' , 'Triangle is Scalane'),
+            •('"' + triangle_type(5464564,456445645,456456456) + '"' , 'Triangle is Scalane'),
       Floating values, as we discussed on call also included: 
-            ('"' + triangle_type(0.5,0.5,0.5) + '"' , 'Triangle is Equilateral.')
+            •('"' + triangle_type(0.5,0.5,0.5) + '"' , 'Triangle is Equilateral.')
 
 2. ManualTest.py is for manual checking of result. Manuallu put 3 values to check result
 3. FakerTest.py is for test atomation. It used exetnal library "Faker" to generate list of random numbers to be used for triangle calculation.
